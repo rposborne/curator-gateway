@@ -7,7 +7,7 @@ Hutch.connect
 post '/gateway/v1/:origin/:hook' do
 
   #validate expected orgin and hook
-  #This will be a pub sub from the curator.
+  #TODO This will be a pub sub from the curator.
   @registed_hooks = {"big_commerce" => ["new_product", "new_order"]}
 
   origin = params[:origin]

@@ -7,8 +7,7 @@ gem "sinatra"
 gem "hutch"
 gem "oj"
 
-gem "rspec"
-
 group :testing do
   gem "rack-test", require: "rack/test"
+  gem "rspec"
 end
